@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ../
-npm run build
+npm run-p build:dev server-nodemon
