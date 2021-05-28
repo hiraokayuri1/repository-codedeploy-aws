@@ -23,5 +23,8 @@ phases:
       - echo "post_build > finally"
 artifacts:
   files:
-    - ./**/*
+    - dist/**/*
+    - package.json
+    - node_modules/**/*
+
 
