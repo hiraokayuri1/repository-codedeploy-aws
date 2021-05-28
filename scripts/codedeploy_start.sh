@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ../
-npm run-p build
+npm run build
