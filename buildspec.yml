@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "install > commands"
+    finally:
+      - echo "install > finally"
+  pre_build:
+    commands:
+      - echo "pre_build > commands"
+    finally:
+      - echo "pre_build > finally"
+  build:
+    commands:
+      - echo "build > commands"
+    finally:
+      - echo "build > finally"
+  post_build:
+    commands:
+      - echo "post_build > commands"
+    finally:
+      - echo "post_build > finally"
+artifacts:
+  files:
+    - ./**/*
+
